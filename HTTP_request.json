@@ -1,0 +1,49 @@
+{
+  "Headers": {
+    "date": "Sun, 16 Feb 2025 18:35:18 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "vary": "Origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=cwekIes1cIvlRaNp596qgRI1kBlwbH9hvU2FCw32PEj6Rw0b80yFtngUw%2Bq9NbMLgGS4W%2BeQm5JygIMc4nbRX0S5WP318rJMWQ6D9kwYEXHufg1J%2FpUvFVhx8IuMrpuSpeO3PN%2BSctQRVRed\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "server": "cloudflare",
+    "cf-ray": "912fa2fc2ecb2a9b-LAX",
+    "content-encoding": "gzip",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfL4;desc=\"?proto=TCP&rtt=130884&min_rtt=129756&rtt_var=49464&sent=4&recv=7&lost=0&retrans=0&sent_bytes=2849&recv_bytes=964&delivery_rate=22380&cwnd=235&unsent_bytes=0&cid=85a235eb283abbcf&ts=640&x=0\""
+  },
+  "url": "https://pocketbase.miku-izayoi.uk/api/collections/users/auth-with-password",
+  "path": "/api/collections/users/auth-with-password",
+  "req_config": {
+    "method": "POST",
+    "params": null,
+    "body": {
+      "identity": "user@example.com",
+      "password": "4ZQ50ZFoABO-nNR"
+    },
+    "headers": {
+      "Authorization": ""
+    }
+  },
+  "data": {
+    "record": {
+      "avatar": "",
+      "collectionId": "_pb_users_auth_",
+      "collectionName": "users",
+      "created": "2025-02-15 18:16:04.626Z",
+      "email": "user@example.com",
+      "emailVisibility": false,
+      "id": "pym2j5eq434r7t6",
+      "name": "User_test",
+      "updated": "2025-02-16 09:48:37.081Z",
+      "verified": true
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2xsZWN0aW9uSWQiOiJfcGJfdXNlcnNfYXV0aF8iLCJleHAiOjE3NDAzMzU3MTgsImlkIjoicHltMmo1ZXE0MzRyN3Q2IiwicmVmcmVzaGFibGUiOnRydWUsInR5cGUiOiJhdXRoIn0.ZqbGP6ybDlYu6DqSpPt46N0Ph0ToF1lmnJHQ1wUYzAw"
+  }
+}
+
